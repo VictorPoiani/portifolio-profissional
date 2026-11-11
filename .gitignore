@@ -1,0 +1,20 @@
+# Dependências e builds
+node_modules/
+build/
+dist/
+coverage/
+.vite/
+
+# Variáveis de ambiente (nunca versionar segredos)
+.env*
+!.env.example
+
+# Sistema / editor
+.DS_Store
+Thumbs.db
+desktop.ini
+*.log
+*.local
+.idea/
+.vscode/*
+!.vscode/extensions.json
